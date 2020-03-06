@@ -1,0 +1,11 @@
+place "CSV DCC" in a folder 
+	in the same folder create a .txt file called "CSV Location"
+		in that file on the first line write the FROM directory in the format
+				Drive:\Dir\Dir\Dir\CSV folder\
+			for example:
+				E:\Users\HappyUser\Desktop\MyCSVs\
+		On the second line in the same format write the output directory 
+		
+*If the output directory does not exist the script will attempt to make it if permissions don't interefere
+
+Cheers!
