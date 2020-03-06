@@ -2,8 +2,8 @@ import os
 def DateCorrect(OldDate):
     #OldDate = r'2020\03\15'
     slash = '\\'
-    #print('{2}\\{1}\\{0}'.format(*OldDate.split('-').rstrip('"').lstrip('"')))
-    return '{2}\\{1}\\{0}'.format(*OldDate.rstrip('\n').rstrip('"').lstrip('"').split('-'))
+    
+    return '{2}\\{1}\\{0}'.format(*OldDate.rstrip('"').lstrip('"').split('-'))
 
 __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
